@@ -146,10 +146,10 @@ AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.AllowAllUsersModelBacke
 
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL = 'Mahmoud.Laban@gmail.com'
+DEFAULT_FROM_EMAIL = 'Mosab official email'
 
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_PASSWORD = 'mosab sendgrid apikey'
